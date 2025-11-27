@@ -14,4 +14,17 @@ class Contact extends Model
     {
         return $this->belongsTo(Category::class);
     }
+
+    protected $fillable = [
+        'last_name',
+        'first_name',
+        'gender',
+        'email',
+        'tel',
+        'address',
+        'building',
+        'category_id',
+        'detail'
+    ];
+
 }

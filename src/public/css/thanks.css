@@ -1,0 +1,35 @@
+.thanks-background {
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.thanks-background::before {
+    content: "Thank you";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 140px;
+    color: rgba(180, 150, 130, 0.1);
+    /* 薄くする */
+    z-index: 0;
+}
+
+.thanks-message {
+    position: relative;
+    z-index: 1;
+    font-size: 18px;
+    color: #5c4a3d;
+    margin-bottom: 30px;
+}
+
+.thanks-home-btn {
+    padding: 8px 18px;
+    z-index: 10;
+    background-color: #a48b7b;
+    color: white;
+    border: none;
+    text-decoration: none;
+}

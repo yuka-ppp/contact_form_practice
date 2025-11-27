@@ -1,0 +1,76 @@
+body {
+    background: #fff;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.header-fixed {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    color: #7a6b64;
+}
+
+h1.title {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+    color: #7a6b64;
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.form-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-row label {
+    width: 180px;
+    font-size: 14px;
+    color: #7a6b64;
+    padding-right: 10px;
+}
+
+
+
+.form-row input,
+.form-row select,
+.form-row textarea {
+    width: 100%;
+    padding: 10px;
+    background: #f5f3f1;
+    border: none;
+    border-radius: 4px;
+}
+
+.form-tel input {
+
+    width: 30%;
+}
+
+.form-tel {
+
+    gap: 8px;
+}
+
+
+textarea {
+    height: 120px;
+}
+
+button {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 25px;
+    background: #7a6b64;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

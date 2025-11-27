@@ -1,0 +1,20 @@
+body {
+    background: #fff;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.header-fixed {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    color: #7a6b64;
+}
+
+h1.title {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+    color: #7a6b64;
+}
+
+
